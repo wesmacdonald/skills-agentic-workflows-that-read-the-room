@@ -5,6 +5,8 @@ on:
   workflow_dispatch:
   schedule:
     - cron: '17 9 * * *'
+permissions:
+  copilot-requests: write
 safe-outputs:
   create-pull-request:
     title-prefix: "[mona] "
