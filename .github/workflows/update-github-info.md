@@ -15,6 +15,7 @@ safe-outputs:
 tools:
   edit:
   web-fetch:
+  bash: ["curl", "wget"]
 network:
   allowed:
     - github.com
